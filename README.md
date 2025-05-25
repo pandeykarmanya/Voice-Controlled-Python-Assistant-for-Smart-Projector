@@ -4,6 +4,15 @@ This Python project implements a voice-controlled assistant that can interact wi
 
 ---
 
+## HOW IT WORKS
+The assistant continuously listens for your voice commands.
+
+When you say "turn on presentation mode", it sends a command to the Arduino to activate connected devices.
+
+Say "turn off" to deactivate presentation mode.
+
+Say "quit" to exit the program gracefully.
+
 ## Features
 
 - Uses **SpeechRecognition** to capture and interpret voice commands.
